@@ -6,7 +6,7 @@ class Star {
     this.xdir = random(-2, 2);
     this.ydir = random(-2, 2);
     this.s = random(3, 40);
-    this.meow = random(10, 500)
+    this.meow = random(10, 300)
     this.r = random(0, 255)
     this.g = random(0, 255)
     this.b = random(0, 255)

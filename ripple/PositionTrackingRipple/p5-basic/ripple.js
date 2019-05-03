@@ -14,7 +14,7 @@ let stars = [];
 let startMoving = false;
 
 // number of stars
-let starsNum = 200;
+let starsNum = 100;
 let counter = 0;
 
 //space key to turn on/off drawing
@@ -29,7 +29,7 @@ function setup() {
   // 3334 is the port number for sending data
   setupOsc(12000, 3334);
   rectMode(CENTER);
-  // noCursor();
+  noCursor();
 
   background(0);
 }
